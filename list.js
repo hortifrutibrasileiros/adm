@@ -1,6 +1,7 @@
 // adicione aqui os seus produtos fixos:
 var items = [
     { discr: 'Abacate',       pUnit: '6.00', medida: 'kg'   },
+    { discr: 'Maçã verde',    pUnit: '9.00', medida: 'kg'   },
     { discr: 'Abacaxi',       pUnit: '5.00', medida: 'unid' },
     { discr: 'Acelga',        pUnit: '7.00', medida: 'kg'   },
     { discr: 'Banana',        pUnit: '3.00', medida: 'palm' },
