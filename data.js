@@ -7,3 +7,8 @@ var description = 'Serviço de Cupom Fiscal para administradores da loja física
 var title = 'Brasileiros Hortifruti - ADM';
 
 var website = 'hortifrutibrasileiros';
+
+
+var pixKey = '+5583986612160';
+var destinatario = 'EDNA LUCIA SOUTO BRASILEIRO';
+var cidade = 'SAO PAULO';
