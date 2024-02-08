@@ -4,17 +4,17 @@
   "description": "Apliactivo para serviço de Cupom Fiscal para administradores da loja Brasileiros Hortifruti.",
   "icons": [
     {
-      "src": "icon.svg",
+      "src": "https://arthiagosoubra.github.io/appSharePrint/clients/hortifrutibrasileiros/icon.svg",
       "sizes": "150x150",
       "type": "image/svg+xml"
     },
     {
-      "src": "icons-192.png",
+      "src": "https://arthiagosoubra.github.io/appSharePrint/clients/hortifrutibrasileiros/icons-192.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "icons-512.png",
+      "src": "https://arthiagosoubra.github.io/appSharePrint/clients/hortifrutibrasileiros/icons-512.png",
       "type": "image/png",
       "sizes": "512x512"
     }
@@ -28,14 +28,14 @@
       "name": "Editar lista de itens",
       "short_name": "Editar lista",
       "description": "Editar lista de items da loja",
-      "url": "list.html",
+      "url": "https://arthiagosoubra.github.io/appSharePrint/clients/hortifrutibrasileiros/list.html",
       "icons": [{ "src": "https://arthiagosoubra.github.io/appSharePrint/files/image/list_icon.png", "sizes": "192x192" }]
     },
     {
       "name": "Baixar App driver",
       "short_name": "App driver",
       "description": "Aplicativo de impressão móvel",
-      "url": "driver.html",
+      "url": "https://arthiagosoubra.github.io/appSharePrint/files/driver.html",
       "icons": [{ "src": "https://arthiagosoubra.github.io/appSharePrint/files/image/driver_icon.png", "sizes": "192x192" }]
     }
   ],
