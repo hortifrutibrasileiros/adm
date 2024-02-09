@@ -4,17 +4,17 @@
   "description": "Apliactivo para serviço de Cupom Fiscal para administradores da loja Brasileiros Hortifruti.",
   "icons": [
     {
-      "src": "https://arthiagosoubra.github.io/appSharePrint/clients/hortifrutibrasileiros/icon.svg",
+      "src": "icon.svg",
       "sizes": "150x150",
       "type": "image/svg+xml"
     },
     {
-      "src": "https://arthiagosoubra.github.io/appSharePrint/clients/hortifrutibrasileiros/icons-192.png",
+      "src": "icons-192.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "https://arthiagosoubra.github.io/appSharePrint/clients/hortifrutibrasileiros/icons-512.png",
+      "src": "icons-512.png",
       "type": "image/png",
       "sizes": "512x512"
     }
