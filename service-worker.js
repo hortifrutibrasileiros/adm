@@ -2,8 +2,6 @@ self.addEventListener('install', (event) => {
   event.waitUntil(
     caches.open('the-cache').then((cache) => {
       return cache.addAll([
-        'list.js',
-
         'https://arthiagosoubra.github.io/appSharePrint/clients/hortifrutibrasileiros/icon.svg',
         'https://arthiagosoubra.github.io/appSharePrint/clients/hortifrutibrasileiros/icon_dark.svg',
         'https://arthiagosoubra.github.io/appSharePrint/clients/hortifrutibrasileiros/data.js',
