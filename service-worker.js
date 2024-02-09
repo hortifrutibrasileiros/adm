@@ -2,17 +2,14 @@ self.addEventListener('install', (event) => {
   event.waitUntil(
     caches.open('the-cache').then((cache) => {
       return cache.addAll([
-        'index.html',
         'list.js',
 
         'https://arthiagosoubra.github.io/appSharePrint/clients/hortifrutibrasileiros/icon.svg',
         'https://arthiagosoubra.github.io/appSharePrint/clients/hortifrutibrasileiros/icon_dark.svg',
         'https://arthiagosoubra.github.io/appSharePrint/clients/hortifrutibrasileiros/data.js',
 
-        'https://arthiagosoubra.github.io/appSharePrint/files/styles.css',
         'https://arthiagosoubra.github.io/appSharePrint/files/jquery-3.6.4.min.js',
         'https://arthiagosoubra.github.io/appSharePrint/files/dependences.js',
-        'https://arthiagosoubra.github.io/appSharePrint/files/scripts.js',
 
         'https://arthiagosoubra.github.io/appSharePrint/files/fonts/BHicons/BHicons.woff2',
         'https://arthiagosoubra.github.io/appSharePrint/files/fonts/BHicons/BHicons.ttf',
