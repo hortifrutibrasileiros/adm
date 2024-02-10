@@ -37,19 +37,3 @@ self.addEventListener('fetch', (event) => {
   );
 });
 
-self.addEventListener('activate', function(event) {
-    event.waitUntil(
-        caches.keys().then(function(cacheNames) {
-            return Promise.all(
-                cacheNames.filter(function(cacheName) {
-                    // Filtra os caches antigos que você não quer manter
-                    // Se precisar limpar todos os caches, pode remover este filtro
-                    return true;
-                }).map(function(cacheName) {
-                    return caches.delete(cacheName);
-                })
-            );
-        })
-    );
-});
-
