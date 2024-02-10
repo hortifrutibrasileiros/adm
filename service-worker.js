@@ -37,4 +37,19 @@ self.addEventListener('fetch', (event) => {
   );
 });
 
+self.addEventListener('message', function(event) {
+    if (event.data && event.data.command === 'limparCache') {
+        event.waitUntil(
+            caches.keys().then(function(cacheNames) {
+                return Promise.all(
+                    cacheNames.filter(function(cacheName) {
+                        return true; // Coloque sua lógica de filtragem aqui, se necessário
+                    }).map(function(cacheName) {
+                        return caches.delete(cacheName);
+                    })
+                );
+            })
+        );
+    }
+});
 
