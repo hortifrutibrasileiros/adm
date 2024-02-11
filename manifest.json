@@ -1,6 +1,7 @@
 {
-  "short_name": "ADM Brasileiros Hortifruti",
   "name": "ADM Brasileiros Hortifruti",
+  "short_name": "ADM Brasileiros Hortifruti",
+  "id": "index.html",
   "description": "Apliactivo para serviço de Cupom Fiscal para administradores da loja Brasileiros Hortifruti.",
   "icons": [
     {
