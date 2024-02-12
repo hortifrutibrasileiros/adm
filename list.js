@@ -45,7 +45,7 @@ var itemsByCategory = {
         { discr: 'Cará',          pUnit: '7.00', medida: 'kg'   },
         { discr: 'Cebola branca',  pUnit: '6.00', medida: 'kg'   },
         { discr: 'Cebola roxa',   pUnit: '6.00', medida: 'kg'   },
-        { discr: 'Cenoura',       pUnit: '9.00', medida: 'kg'   },
+        { discr: 'Cenoura',       pUnit: '8.00', medida: 'kg'   },
         { discr: 'Gengibre',      pUnit: '20.0', medida: 'kg'   },
         { discr: 'Macaxeira',     pUnit: '5.00', medida: 'kg'   },
         { discr: 'Inhame',        pUnit: '7.00', medida: 'kg'   },
